@@ -1,11 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-</head>
-<body>
-	
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+		<link rel="stylesheet" href="./css/styles.css">
+		<script src="./js/custom.js"></script>
+  </head>
+  <body id="mybody">
+    <!--Dynamical changing back ground colors-->
+		<div style="text-align:center;">
+			<h1 id="title">Dynamic Background Color Change</h1>
+		</div>
+    <div class="container">
+      <button class="btn-button" onclick="changeColor('red')">Red</button>
+      <button class="btn-button" onclick="changeColor('green')">Green</button>
+      <button class="btn-button" onclick="changeColor('blue')">Blue</button>
+      <button class="btn-button" onclick="changeColor('yellow')">Yellow</button>
+      <button class="btn-button" onclick="changeColor('orange')">Orange</button>
+      <button class="btn-button" onclick="changeColor('black')">Black</button>
+			<button class="btn-button" onclick="changeColor('white')">Reset</button>
+    </div>
+  </body>
 </html>
